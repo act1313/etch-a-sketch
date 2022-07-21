@@ -36,13 +36,17 @@ function createGrid(numOfTiles, cols) {
         background-color: lightgray;
         flex-direction: column;
     `;
+
     container.style.cssText = 
     `
         display: inline-grid;
         grid-template-columns: repeat(${cols}, 1fr);
         height: 65vh;
         width: 65vh;
-        border: 1px solid black;
+        border: 10px solid black;
+        border-radius: 25px;
+        background-color: gray;
+        gap: 1px;
     `;
 
 
